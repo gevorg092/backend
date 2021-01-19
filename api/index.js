@@ -13,7 +13,9 @@ const express = require('express')
 const apiRouter = express.Router()
 
 const homeController = require('../controllers/home-controller')
+const authController = require('../controllers/auth-controller')
 
 apiRouter.get('/', homeController.index)
+apiRouter.post('/login', authController.login)
 
 module.exports = apiRouter

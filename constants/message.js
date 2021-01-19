@@ -8,6 +8,8 @@
 
 const message = {
     INTERNAL_SERVER_ERROR: 'The request was not completed.',
+    INVALID_PASSWORD: 'Invalid the password.',
+    NO_EXIST_USER: 'No exist, user, that with this email address.',
 }
 
 module.exports = message
