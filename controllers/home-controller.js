@@ -2,7 +2,7 @@
  * Home Controller file
  *
  * @package backend/controllers
- * @author Luis Andres <ion.podolean22@gmail.com>
+ * @author Ion Podolean <ion.podolean22@gmail.com>
  * @copyright 2021-01-16
  * @licence
  * @version
@@ -23,7 +23,7 @@ const homeController = {
 /**
  * Function that get data for home page.
  *
- * @author Luis Andres <ion.podolean22@gmail.com>
+ * @author Ion Podolean <ion.podolean22@gmail.com>
  * @param none
  * @return json
  * */

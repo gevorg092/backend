@@ -2,7 +2,7 @@
  * Auth Controller file
  *
  * @package backend/controllers
- * @author Luis Andres <ion.podolean22@gmail.com>
+ * @author Ion Podolean <ion.podolean22@gmail.com>
  * @copyright 2021-01-16
  * @licence
  * @version
@@ -27,8 +27,8 @@ const authController = {
  * */
 function login(req, res) {
     return new Promise((resolve, reject) => {
-        let email = req.query.email
-        let password = req.query.password
+        let email = req.body.email
+        let password = req.body.password
         let authData = {
             email: email,
             password: password

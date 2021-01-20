@@ -2,7 +2,7 @@
  * Product Model file
  *
  * @package backend/models
- * @author Luis Andres <ion.podolean22@gmail.com>
+ * @author Ion Podolean <ion.podolean22@gmail.com>
  * @copyright 2021-01-16
  * @licence
  * @version
@@ -20,7 +20,7 @@ const productModel = {
 /**
  * Function that get data for latest products.
  *
- * @author Luis Andres <ion.podolean22@gmail.com>
+ * @author Ion Podolean <ion.podolean22@gmail.com>
  * @param none
  * @return json
  * */
