@@ -15,6 +15,7 @@ const apiRouter = express.Router()
 const homeController = require('../controllers/home-controller')
 const authController = require('../controllers/auth-controller')
 
+apiRouter.post('/get-global-variables', homeController.getGlobalVariables)
 apiRouter.get('/', homeController.index)
 apiRouter.post('/login', authController.login)
 
